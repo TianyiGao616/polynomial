@@ -26,7 +26,7 @@ class Add:
     def __repr__(self):
         return repr(self.p1) + " + " + repr(self.p2)
         
-    def evaluate (self.value):
+    def evaluate (self, value):
         return self.p1.evaluate(value) + self.p2.evaluate(value)
 
 class Mul:
@@ -43,7 +43,7 @@ class Mul:
             return repr(self.p1) + " * ( " + repr(self.p2) + " )"
         return repr(self.p1) + " * " + repr(self.p2)
         
-     def evaluate(self, value):
+    def evaluate(self, value):
          return self.p1.evaluate(value) * self.p2.evaluate(value)
          
 class Div:
