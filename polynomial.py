@@ -15,7 +15,7 @@ class Int:
     def __repr__(self):
         return str(self.i)
 
-    def evaluate(self):
+    def evaluate(self, value):
         return self.i
 
 class Add:
@@ -26,7 +26,7 @@ class Add:
     def __repr__(self):
         return repr(self.p1) + " + " + repr(self.p2)
         
-    def evaluate self.value:
+    def evaluate (self.value):
         return self.p1.evaluate(value) + self.p2.evaluate(value)
 
 class Mul:
